@@ -1,40 +1,45 @@
-## Service ##
+
+
+## Servicios Instalados ##
 
 - OpenSSH  : 22, 143
 - Dropbear : 80, 443
 - Stunnel4 : 442
-- Squid3   : 8080, 3128 (limit to IP SSH)
-- OpenVPN  : TCP 1194 (client config : http://ip_vps:81/client.ovpn)
+- Squid3   : 8080, 3128 (Limitado a la ip del SSH)
+- OpenVPN  : TCP 1194 (Config : http://ip_vps:81/client.ovpn)
 - badvpn   : badvpn-udpgw port 7300
 - nginx    : 81
 
-## Script ##
+## Menu del Script ##
 
-- menu         (Menampilkan daftar perintah yang tersedia)
-- usernew      (Membuat Akaun SSH)
-- trial        (Membuat Akaun Trial)
-- hapus        (Menghapus Akaun SSH)
-- cek          (Cek User Login)
-- member       (Cek Member SSH)
-- delexp       (Delete User expired)
-- resvis       (Restart Service Dropbear, Webmin, Squid3, OpenVPN dan SSH)
+- menu         (Menu)
+- nuevo        (Crear una cuenta SSH)
+- prueba       (Crea una cuenta de Prueba)
+- borrar       (Borra una cuenta SSH)
+- checar       (Verifica una cuenta SSH o usuario)
+- lista        (Lista de usuarios SSH)
+- expirado     (Borrar usuario SSH expirado)
+- restart      (Restart Servicios Dropbear, Webmin, Squid3, OpenVPN dan SSH)
 - reboot       (Reboot VPS)
 - speedtest    (Speedtest VPS)
-- info         (Menampilkan Informasi Sistem)
+- info         (Información del Sistema)
 
-## Fitur lain ##
+## Opciones ##
 
-- DDoS Deflate
+- DDoS Deflate (Sistema Anti DDoS
 - Webmin
-- Timezone : Asia/Kuala Lumpur (GMT +8)
+- Timezone : America/New_York
 - IPv6     : [off]
 
-## Installation ##
+## Instalacion ##
 
-Copy dan paste command di bawah dn tekan ENTER. Tunggu sampai proses siap.
+Copia y pega el siguiente comando para realizar la instalación
 
-`apt-get update && apt-get install ca-certificates && wget https://bitbucket.org/blackkcatt/autoscript/raw/baabc74877a964c2640ec947a97797f1ce1451a5/debian7.sh && chmod +x debian7.sh && ./debian7.sh`
+`apt-get update && apt-get install ca-certificates && wget https://raw.githubusercontent.com/powermx/autoscript/master/debian7.sh && chmod +x debian7.sh && ./debian7.sh`
 
-## Contact ##
 
-- Telegram : https://t.me/???
+Android México Team / PwrMX
+=========
+
+# Telegram: http://t.me/pwrmx/
+# Blog: http://powermx.org/
