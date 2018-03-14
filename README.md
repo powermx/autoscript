@@ -19,7 +19,7 @@
 - checar       (Verifica una cuenta SSH o usuario)
 - lista        (Lista de usuarios SSH)
 - expirado     (Borrar usuario SSH expirado)
-- restart      (Restart Servicios Dropbear, Webmin, Squid3, OpenVPN dan SSH)
+- restart      (Restart Servicios Dropbear, Webmin, Squid3, OpenVPN & SSH)
 - reboot       (Reboot VPS)
 - speedtest    (Speedtest VPS)
 - info         (Información del Sistema)
